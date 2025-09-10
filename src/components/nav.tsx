@@ -1,17 +1,8 @@
 "use client";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Button } from "./ui/button";
-import { motion } from "framer-motion";
 
 export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

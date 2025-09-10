@@ -1,13 +1,10 @@
 "use client";
-import React, { useState } from "react";
-import { Menu, X, User, Phone, Building2, ChevronUp } from "lucide-react";
-import Image from "next/image";
+import React from "react";
+import { User, Phone, Building2 } from "lucide-react";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 
 const NSGAboutPage = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-slate-900 text-white">
       {/* Navigation */}
@@ -19,7 +16,7 @@ const NSGAboutPage = () => {
           About <span className="text-blue-400">NSG</span>
         </h1>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-          On a mission to accelerate the world's transition to sustainable
+          On a mission to accelerate the world&apos;s transition to sustainable
           money.
         </p>
       </section>
@@ -68,7 +65,7 @@ const NSGAboutPage = () => {
                   NSG has introduced a new form of money to stand the test of
                   time and overcome the pitfalls of traditional currencies
                   susceptible to inflation, weakened value and eventual
-                  collapse. In today's financial model, where more and more
+                  collapse. In today&apos;s financial model, where more and more
                   money is printed and the value of that currency is eroded,
                   economies and individuals are left to suffer the consequences.
                 </p>
@@ -77,24 +74,24 @@ const NSGAboutPage = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Lorem Ipsum</h2>
                 <p className="text-gray-300 leading-relaxed">
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled it to make a type specimen book. It has survived
-                  not only five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged. It was
-                  popularised in the 1960s with the release of Letraset sheets
-                  containing Lorem Ipsum passages, and more recently with
+                  Lorem Ipsum has been the industry&apos;s standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of
+                  type and scrambled it to make a type specimen book. It has
+                  survived not only five centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged. It
+                  was popularised in the 1960s with the release of Letraset
+                  sheets containing Lorem Ipsum passages, and more recently with
                   desktop publishing software like Aldus PageMaker including
                   versions of Lorem Ipsum.
                 </p>
                 <p className="text-gray-300 leading-relaxed mt-4">
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled it to make a type specimen book. It has survived
-                  not only five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged. It was
-                  popularised in the 1960s with the release of Letraset sheets
-                  containing Lorem Ipsum passages, and more recently with
+                  Lorem Ipsum has been the industry&apos;s standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of
+                  type and scrambled it to make a type specimen book. It has
+                  survived not only five centuries, but also the leap into
+                  electronic typesetting, remaining essentially unchanged. It
+                  was popularised in the 1960s with the release of Letraset
+                  sheets containing Lorem Ipsum passages, and more recently with
                   desktop publishing software like Aldus PageMaker including
                   versions of Lorem Ipsum.
                 </p>
@@ -113,8 +110,8 @@ const NSGAboutPage = () => {
             Precious Metals
           </h2>
           <p className="text-gray-300 leading-relaxed">
-            Lorem Ipsum has been the industry's standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
+            Lorem Ipsum has been the industry&apos;s standard dummy text ever
+            since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only
             five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s

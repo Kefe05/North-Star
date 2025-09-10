@@ -1,11 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { Play, Smartphone, Globe, Lock, Star, Menu, X } from "lucide-react";
+import { Smartphone } from "lucide-react";
 import {
   ChevronDown,
-  Wallet,
-  TrendingUp,
-  Coins,
   ArrowRight,
   Shield,
   CreditCard,
@@ -19,7 +16,6 @@ import { Card } from "@/components/ui/card";
 import Nav from "@/components/nav";
 
 const Landing = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const toggleFaq = (index: number | null) => {
@@ -168,7 +164,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium  space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -186,7 +182,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium  space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -204,7 +200,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium  space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -243,7 +239,7 @@ const Landing = () => {
                       Keep track of everyday spending. Build your wealth in gold
                       and silver.
                     </p>
-                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colorsfont-medium  space-x-4 text-lg lg:text-xl">
                       <span>Lead More</span>
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -261,7 +257,7 @@ const Landing = () => {
                       Keep track of everyday spending. Build your wealth in gold
                       and silver.
                     </p>
-                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium  space-x-4 text-lg lg:text-xl">
                       <span>Lead More</span>
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -279,7 +275,7 @@ const Landing = () => {
                       Keep track of everyday spending. Build your wealth in gold
                       and silver.
                     </p>
-                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors  font-medium  space-x-4 text-lg lg:text-xl">
                       <span>Lead More</span>
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -299,7 +295,7 @@ const Landing = () => {
         {/* 3D Gold Bar Background Effect */}
         <div className="absolute inset-0">
           <div className="absolute top-1/2 left-1/2 w-96 h-32 bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-600 rounded-2xl transform -translate-x-1/2 -translate-y-1/2 rotate-12 shadow-2xl shadow-yellow-500/20 opacity-20"></div>
-          <div className="absolute top-1/2 left-1/2 w-80 h-24 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 rounded-xl transform -translate-x-1/2 -translate-y-1/2 rotate-6 shadow-xl shadow-gray-400/20 opacity-30 translate-x-8 translate-y-8"></div>
+          <div className="absolute top-1/2 left-1/2 w-80 h-24 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 rounded-xl transform  rotate-6 shadow-xl shadow-gray-400/20 opacity-30 translate-x-8 translate-y-8"></div>
         </div>
 
         <div className="max-w-6xl mx-auto relative z-10">
@@ -382,7 +378,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className=" text-blue-400 hover:text-blue-300 transition-colors  font-medium flex items-center space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -400,7 +396,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className=" text-blue-400 hover:text-blue-300 transition-colors  font-medium flex items-center space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -418,7 +414,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className=" text-blue-400 hover:text-blue-300 transition-colors  font-medium flex items-center space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -457,7 +453,7 @@ const Landing = () => {
                       Keep track of everyday spending. Build your wealth in gold
                       and silver.
                     </p>
-                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                    <span className=" text-blue-400 hover:text-blue-300 transition-colors font-medium flex items-center space-x-4 text-lg lg:text-xl">
                       <span>Lead More</span>
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -475,7 +471,7 @@ const Landing = () => {
                       Keep track of everyday spending. Build your wealth in gold
                       and silver.
                     </p>
-                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                    <span className=" text-blue-400 hover:text-blue-300 transition-colors  font-medium flex items-center space-x-4 text-lg lg:text-xl">
                       <span>Lead More</span>
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -493,7 +489,7 @@ const Landing = () => {
                       Keep track of everyday spending. Build your wealth in gold
                       and silver.
                     </p>
-                    <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                    <span className=" text-blue-400 hover:text-blue-300 transition-colors  font-medium flex items-center space-x-4 text-lg lg:text-xl">
                       <span>Lead More</span>
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -542,7 +538,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className=" text-blue-400 hover:text-blue-300 transition-colors  font-medium flex items-center space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -560,7 +556,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors font-medium  space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -578,7 +574,7 @@ const Landing = () => {
                     Keep track of everyday spending. Build your wealth in gold
                     and silver.
                   </p>
-                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm font-medium flex items-center space-x-4 text-lg lg:text-xl">
+                  <span className="flex items-center text-blue-400 hover:text-blue-300 transition-colors  font-medium  space-x-4 text-lg lg:text-xl">
                     <span>Lead More</span>
                     <ArrowRight className="w-4 h-4" />
                   </span>
@@ -593,7 +589,7 @@ const Landing = () => {
         {/* 3D Gold Bar Background Effect */}
         <div className="absolute inset-0">
           <div className="absolute top-1/2 left-1/2 w-96 h-32 bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-600 rounded-2xl transform -translate-x-1/2 -translate-y-1/2 rotate-12 shadow-2xl shadow-yellow-500/20 opacity-20"></div>
-          <div className="absolute top-1/2 left-1/2 w-80 h-24 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 rounded-xl transform -translate-x-1/2 -translate-y-1/2 rotate-6 shadow-xl shadow-gray-400/20 opacity-30 translate-x-8 translate-y-8"></div>
+          <div className="absolute top-1/2 left-1/2 w-80 h-24 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 rounded-xl transform -translate-x-1/2 -translate-y-1/2 rotate-6 shadow-xl shadow-gray-400/20 opacity-30 "></div>
         </div>
 
         <div className="max-w-6xl mx-auto relative z-10">

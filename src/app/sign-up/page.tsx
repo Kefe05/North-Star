@@ -1,9 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import { Menu, X, ChevronUp } from "lucide-react";
-import Image from "next/image";
 import Footer from "@/components/footer";
 import Nav from "@/components/nav";
+import Image from "next/image";
 
 const NSGSignUpPage = () => {
   const [email, setEmail] = useState("");
